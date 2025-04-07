@@ -51,7 +51,8 @@ a {
 }
 
 .hero-right {
-    background-color: gray;
+    background-color: rgb(108, 112, 124);
+    color: #E5E7EB;
     align-self: stretch;
     display: flex;
     justify-content: center;
