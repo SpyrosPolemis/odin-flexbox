@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* border: solid 1px red; */
 }
 
 body {
@@ -82,4 +83,44 @@ a {
     border-radius: 8px;
     font-weight: 600;
     font-size: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 40px 0;
+}
+
+.info-section {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-subsection { 
+    /* There needs to be a width specified in here */
+    gap: 8px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.info-image {
+    border: #3882f6 solid 4px;
+    border-radius: 16px;
+    height: 150px;
+}
+
+.info p {
+    font-size: 18px;
+    color: #5b616e;
 }
